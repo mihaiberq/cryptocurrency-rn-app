@@ -14,7 +14,7 @@ export default function marketReducer(state = initialState, action) {
         ...state,
         loading: true,
       };
-    case marketActions.GET_COIN_MARKET_SUCCESS:
+    case marketActions.GET_HOLDINGS_SUCCESS:
       return {
         ...state,
         myHoldings: action.payload.myHoldings,
