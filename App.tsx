@@ -21,7 +21,7 @@ const Stack = createStackNavigator<RootNavigator>();
 
 export default function App() {
   const [loaded] = useFonts({
-    Roboto: require("./assets/fonts/Roboto-Regular.ttf"),
+    "Roboto-Regular": require("./assets/fonts/Roboto-Regular.ttf"),
     "Roboto-Bold": require("./assets/fonts/Roboto-Bold.ttf"),
     "Roboto-Black": require("./assets/fonts/Roboto-Black.ttf"),
   });
