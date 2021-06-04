@@ -65,7 +65,7 @@ export function getHoldings({
             symbol: item.symbol,
             name: item.name,
             image: item.image,
-            current_price: item.current_price,
+            currentPrice: item.current_price,
             qty: coin.qty,
             total: coin.qty * item.current_price,
             priceChangePercentage7dInCurrency:

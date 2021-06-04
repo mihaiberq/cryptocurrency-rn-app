@@ -68,7 +68,7 @@ export default function Home(): React.ReactElement {
           containerStyle={{
             marginTop: theme.SIZES.padding * 2,
           }}
-          chartPrices={selectedCoin?.sparkline_in_7d.price}
+          chartPrices={selectedCoin?.sparkline_in_7d?.price}
         />
 
         {/** Top Cryptocurrencies */}

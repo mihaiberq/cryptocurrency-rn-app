@@ -4,7 +4,7 @@ export const holdings = [
     qty: 888,
   },
   {
-    id: "ether",
+    id: "ethereum",
     qty: 188,
   },
   {
