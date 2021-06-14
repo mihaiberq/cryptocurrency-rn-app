@@ -18,13 +18,78 @@ export const profile = {
   email: "test@test.com",
 };
 
-export const settings = {
-  launchScreen: "Home",
-  currency: "USD",
-  appearance: "Dark",
-  language: "English",
-  faceId: true,
-};
+const EmptyFunction = () => console.log("Pressed");
+
+export const settings = [
+  {
+    prefType: "header",
+    title: "APP",
+  },
+  {
+    prefType: "preference",
+    title: "Launch Screen",
+    value: "Home",
+    type: "button",
+    onPress: EmptyFunction,
+  },
+  {
+    prefType: "preference",
+    title: "Appearence",
+    value: "Dark",
+    type: "button",
+    onPress: EmptyFunction,
+  },
+  {
+    prefType: "header",
+    title: "ACCOUNT",
+  },
+  {
+    prefType: "preference",
+    title: "Fiat Currency",
+    value: "USD",
+    type: "button",
+    onPress: EmptyFunction,
+  },
+  {
+    prefType: "preference",
+    title: "Language",
+    value: "English",
+    type: "button",
+    onPress: EmptyFunction,
+  },
+  {
+    prefType: "header",
+    title: "SECURITY",
+  },
+  {
+    prefType: "preference",
+    title: "FaceID",
+    value: "",
+    onPress: EmptyFunction,
+    type: "switch",
+  },
+  {
+    prefType: "preference",
+    title: "Password",
+    value: "",
+    type: "button",
+    onPress: EmptyFunction,
+  },
+  {
+    prefType: "preference",
+    title: "Change Password",
+    value: "",
+    type: "button",
+    onPress: EmptyFunction,
+  },
+  {
+    prefType: "preference",
+    title: "2-Factor Authentication",
+    value: "",
+    type: "button",
+    onPress: EmptyFunction,
+  },
+];
 
 const dummyData = {
   holdings,

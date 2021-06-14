@@ -1,7 +1,6 @@
 import * as React from "react";
 import { View, Text, TouchableOpacity, FlatList, Image } from "react-native";
 import { useSelector } from "react-redux";
-import { useFocusEffect } from "@react-navigation/native";
 import styled, { useTheme } from "styled-components";
 
 import MainLayout from "./MainLayout";

@@ -5,6 +5,8 @@ import BalanceInfo from "./BalanceInfo";
 import Chart from "./Chart";
 import Header from "./Header";
 import Tabs from "./Tabs";
+import PreferencesSectionTitle from "./Preferences/SectionTitle";
+import PreferenceSettingsRow from "./Preferences/SettingsRow";
 
 export {
   BalanceInfo,
@@ -14,4 +16,6 @@ export {
   Chart,
   Header,
   Tabs,
+  PreferencesSectionTitle,
+  PreferenceSettingsRow,
 };
